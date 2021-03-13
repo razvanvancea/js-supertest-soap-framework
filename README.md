@@ -3,7 +3,7 @@
 Stack: Chai, Mocha, SuperTest.
 
 
-## The repository includes soapui-mocksrv.xml file. Feel free to import the project file into SoapUI IDE in order to be able to start the SOAP mock server. It exposes 2 SOAP endpoints on localhost:8088 so you can practice with. One of these endpoints will be used in the test example of the automation framework.
+## Local SOAP Mock Server - The repository includes soapui-mocksrv.xml file. Feel free to import the project file into SoapUI IDE in order to be able to start the SOAP mock server. It exposes 2 SOAP endpoints on localhost:8088 so you can practice with. One of these endpoints will be used in the test example of the automation framework.
 
 
 
