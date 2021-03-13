@@ -16,3 +16,7 @@ The repository includes soapui-mocksrv.xml file. Feel free to import the project
 CLI: npm run test
 
 ### Note: freel free to set the default timeout period directly in the 'package.json' file, in the scripts section (mocha -t 20000). Currently, the default value is set to 20 seconds.
+
+### Note2: the URL is set in the 'config.js' file.
+
+### Note3: the XML payload will be stored in the 'data' folder.
