@@ -2,13 +2,11 @@ const {expect, request} = require('../config');
 const {requestXmlData} =  require("../data/requestData");
 const convert = require('xml-js');
 
-const URL = "localhost:8088/mockNumberConversionSoapBinding";
+describe("SOAP Endpoints", () => {
 
-describe("SOAP Endpoints", function(){
-
-  it("post soap", async function(){
+  it("POST SOAP request", async () => {
     const res = await request
-    .post(URL)
+    .post('/')
     .set('Content-Type', 'application/xml')
     .send(requestXmlData);
 
