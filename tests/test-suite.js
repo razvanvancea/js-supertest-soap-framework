@@ -2,9 +2,9 @@ const {expect, request} = require('../config');
 const {requestXmlData} =  require("../data/requestData");
 const convert = require('xml-js');
 
-describe("SOAP Endpoints", () => {
+describe("SOAP Endpoints Test Suite", () => {
 
-  it("POST SOAP request", async () => {
+  it("POST request", async () => {
     const res = await request
     .post('/')
     .set('Content-Type', 'application/xml')
