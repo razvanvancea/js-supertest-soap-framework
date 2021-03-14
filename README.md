@@ -17,7 +17,7 @@ The repository includes soapui-mocksrv.xml file. In order to successfuly run the
 CLI: npm run test
 
 ### Note - URL
-You can pass the URL as CLI command --env flag. 
+You can pass the URL via CLI as --env flag.
 
 E.g. npx mocha -t 20000 tests/* --env='localhost:8088/myService'
 
