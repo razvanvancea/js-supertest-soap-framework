@@ -18,5 +18,5 @@ describe("SOAP Endpoints Test Suite", () => {
     const expectedTextResult = "RV";
     
     expect(actualTextResult).to.be.equal(expectedTextResult);
-  }  )
+  })
 });
