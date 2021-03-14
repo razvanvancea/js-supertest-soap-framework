@@ -14,9 +14,9 @@ describe("SOAP Endpoints Test Suite", () => {
 
     const jsonFromResponse = JSON.parse(convert.xml2json(res.text, {compact: true, spaces: 4}));
 
-    const actualTextMessage = jsonFromResponse["soapenv:Envelope"]["soapenv:Body"]["web:NumberToDollarsResponse"]["web:NumberToDollarsResult"]["_text"];
-    const expectedTextMessage = "RV";
+    const actualTextResult = jsonFromResponse["soapenv:Envelope"]["soapenv:Body"]["web:NumberToDollarsResponse"]["web:NumberToDollarsResult"]["_text"];
+    const expectedTextResult = "RV";
     
-    expect(actualTextMessage).to.be.equal(expectedTextMessage);
+    expect(actualTextResult).to.be.equal(expectedTextResult);
   }  )
 });
