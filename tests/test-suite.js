@@ -12,11 +12,9 @@ describe("SOAP Endpoints", () => {
 
     expect(res.status).eql(200);
 
-    const jsonFromResponse = convert.xml2json(res.text, {compact: true, spaces: 4});
+    const jsonFromResponse = JSON.parse(convert.xml2json(res.text, {compact: true, spaces: 4}));
 
-    const parsed = JSON.parse(jsonFromResponse);
-
-    const actualTextMessage = parsed["soapenv:Envelope"]["soapenv:Body"]["web:NumberToDollarsResponse"]["web:NumberToDollarsResult"]["_text"];
+    const actualTextMessage = jsonFromResponse["soapenv:Envelope"]["soapenv:Body"]["web:NumberToDollarsResponse"]["web:NumberToDollarsResult"]["_text"];
     const expectedTextMessage = "RV";
     
     expect(actualTextMessage).to.be.equal(expectedTextMessage);
