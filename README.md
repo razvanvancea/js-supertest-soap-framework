@@ -20,7 +20,8 @@ CLI: npm run test
 Feel free to set the default timeout period directly in the 'package.json' file, in the scripts section (mocha -t 20000). Currently, the default value is set to 20 seconds.
 
 ### Note2:
-The URL is set in the 'config.js' file.
+You can pass the URL as CLI command --env flag. E.g. npx mocha -t 20000 tests/* --env='localhost:8088/mockNumberConversionSoapBinding'
+Feel free to check out the current one displayed in the package.json file.
 
 ### Note3: 
 The XML payload will be stored in the 'data' folder.
