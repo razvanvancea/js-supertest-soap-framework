@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha -t 20000 tests/*"
+    "test": "npx mocha -t 20000 tests/* --env='localhost:8088/mockNumberConversionSoapBinding'"
   },
   "author": "Razvan Vancea",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.4",
+    "minimist": "^1.2.5",
     "mocha": "^8.3.2",
     "npx": "^10.2.2",
     "supertest": "^6.1.3",
