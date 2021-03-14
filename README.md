@@ -1,4 +1,4 @@
-# JS API Automation Framework for SOAP Endpoints.
+# JS API Automation Framework for SOAP Endpoints
 
 Stack: Chai, Mocha, SuperTest.
 
