@@ -2,7 +2,7 @@
 
 ## Stack: Chai, Mocha, SuperTest
 
-This JavaScript automation framework project can be used to create API automated tests for SOAP endpoints. It can be easily integrated with any CI/CD tools.
+This JavaScript automation framework project has been designed to handle API automated tests for SOAP endpoints. It can be easily integrated with any CI/CD tools.
 
 ## Local SOAP Mock Server - only for example purpose
 The repository includes soapui-mocksrv.xml file. In order to successfuly run the existing test scenario, feel free to import the project file into SoapUI IDE in and start the SOAP mock server. It exposes 2 SOAP endpoints on localhost:8088 so you can practice with. One of these endpoints has been used in the test example of the project.
