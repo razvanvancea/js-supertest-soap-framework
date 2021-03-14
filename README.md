@@ -1,6 +1,6 @@
 # JS API Automation Framework for SOAP Endpoints
 
-Stack: Chai, Mocha, SuperTest.
+## Stack: Chai, Mocha, SuperTest
 
 This JavaScript automation framework project can be used to create API automated tests for SOAP endpoints. It can be easily integrated with any CI/CD tools.
 
