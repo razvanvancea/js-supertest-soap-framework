@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha -t 20000 tests/* --env='localhost:8088/mockNumberConversionSoapBinding'"
+    "test": "npx mocha -t 10000 tests/* --env='localhost:8088/mockNumberConversionSoapBinding'"
   },
   "author": "Razvan Vancea",
   "license": "ISC",
