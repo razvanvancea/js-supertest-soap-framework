@@ -19,12 +19,15 @@ CLI: npm run test
 ### Note - URL
 You can pass the URL via CLI as --env flag.
 
-E.g. npx mocha -t 20000 tests/* --env='localhost:8088/myService'
-
-Feel free to check out the current one displayed in the package.json file.
+E.g. npx mocha -t 20000 tests/*  **--env='localhost:8088/myService'**
 
 ### Note - Default Timeout Period
-Feel free to set the default timeout period directly in the 'package.json' file, in the scripts section (mocha -t 20000). Currently, the default value is set to 20 seconds.
+Mocha Default timeout value is 2 seconds (2000ms).
+
+You can overwrite the default timeout period(ms) via CLI as -t flag.
+
+E.g. npx mocha **-t 20000** tests/* --env='localhost:8088/myService'
+
 
 ### Note3: 
 The XML request payload will be stored in the 'data' folder.
