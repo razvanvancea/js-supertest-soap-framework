@@ -17,11 +17,11 @@ CLI: npm run test
 ### Note - URL
 You can pass the URL via CLI as --env flag.
 
-E.g. npx mocha -t 20000 tests/*  **--env='localhost:8088/myService'**
+E.g. npx mocha -t 10000 tests/*  **--env='localhost:8088/myService'**
 
 ### Note - Default Timeout Period
 Mocha Default timeout value is 2 seconds (2000ms).
 
 You can overwrite the default timeout period(ms) via CLI as -t flag.
 
-E.g. npx mocha **-t 20000** tests/* --env='localhost:8088/myService'
+E.g. npx mocha **-t 10000** tests/* --env='localhost:8088/myService'
